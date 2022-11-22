@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@100&family=Russo+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    /* outline: 1px solid red; */
+
+}
+body{
+    width: 100%;
+    background-color: #bebbb6;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background: #2c2929;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: #d3fbd8;
+    font-size: 32px;
+    margin-left: 30px;
+}
+nav ul{
+   display: flex;
+   margin-right: 70px;
+   gap:18px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#d3fbd8 ;
+    cursor: pointer;
+}
+nav ul li a.active{
+    color: #D2447C;
+}
+
+footer{
+    margin-top: 50vh;
+    height: 40vh;
+    background: #2c2929;
+    padding: 80px;
+}
+.clr li a{
+    color:#d3fbd8;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.clr{
+    color:#d3fbd8;
+}
+
+.upper, .lower, .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 30px;
+}
+.lower{
+    gap: 40px;
+}
+
+.icons{
+    gap: 25px;
+    font-size: 22px;
+}
+.upper-container{
+    margin:0 120px;
+    height: 100vh;
+}
+.upper-container h1{
+    font-size: 28px;
+    color: black;
+    display: flex;
+    font-family: 'russo one', sans-serif;
+    letter-spacing: .4rem;
+
+}
+.upper-container h1 span{
+    color: #7A7373;
+    font-family: 'russo one';
+
+}
+.hero{
+    margin-top: 50px;
+}
+
+.contents{
+    margin-top: 40px;
+}
+.contents p{
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.buttons{
+    margin-top: 25vh;
+
+}
+
+.buttons a{
+    background-color: #2c2929;
+    text-decoration: none;
+    color: #bebbb6;
+    padding: 10px 70px;
+    border-radius: 30px;
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.academic-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3rem;
+    
+}
+
+.academic-header h1{
+    font-family: 'russo one', sans-serif;
+    font-size: 30px;
+}
+.academic-header p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+}
+.academic-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10vh;
+
+}
+
+
+.masters{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #8A8FB2;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+.masters i{
+    font-size: 50px;
+    text-align: center;
+}
+.masters h4{
+    text-align: center;
+    font-size: larger;
+}
+
+.masters p{
+    line-height: 1.6rem;
+}
+
+.masters a{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 2px 10px;
+    background-color: #d3fbd8;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.section-2-about{
+    margin-top: 15vh;
+}
+.about-hero{
+    margin: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15vh;
+    gap: 40px;
+}
+
+.about-hero .contents p{
+    line-height: 2rem;
+}
+
+.about-content p{
+    margin: 0 120px;
+    margin-bottom: 5vh;
+    font-size: 0.85rem;
+    width: 50vw;
+    margin-left: 15vw;
+}
+
+.about-scroll{
+    width: 20px;
+    height: 60vh;
+    background-color: #2c2929;
+
+}
+
+.main-about{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
