@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@100&family=Russo+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2.5rem;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box {
+    height: 550px;
+    width: 350px;
+    border-radius: 16px;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#fff;
+}
+h1{
+    font-family: 'russo one', sans-serif;
+    margin-top: 100px;
+}
+p{
+    line-height: 1.2rem;
+}
+.logo i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: black;
+    text-align: center;
+}
+.btn{
+    height: 30px;
+    width: 60px;
+    border-radius: 8px;
+    color: white;
+    background-color: #2c2929;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
