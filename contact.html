@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaTech Uni</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <label class="logo" href="index.html">LaTech Uni</label>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="career.html">Careers</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false">
+            <h3>GET IN TOUCH</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="text" id="email" placeholder="Email e.g. wewe@gmail.com" required>
+            <input type="text" id="phone" placeholder="Phone No: 1234 567 890" required>
+            <textarea id="message"  rows="4" placeholder="What's your Enquiry"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./contact.js"></script>
+   <footer>
+    <div class="upper clr">
+        <li><a href="#">popular courses</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">new courses</a></li>
+        <li><a href="#">graduants</a></li>
+        <li><a href="#">testimonials</a></li>
+    </div>
+    <div class="lower clr">
+        <li><a href="#">help</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">privacy</a></li>
+        <li><a href="#">terrms</a></li>
+        <li><a href="#">our offices</a></li>
+    </div>
+    <div class="icons clr">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+    </div>
+   </footer>
+    <script src="script.js"></script>
+</body>
+</html>
